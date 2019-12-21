@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
  
 // Importamos las rutas
-var suma_Router = require('../suma/sumaRouter/sumaRouter');
+var suma_Router = require('../sumaRouter/sumaRouter');
  
 // Cargamos las rutas - Importante
 app.use('/sumar', suma_Router);
